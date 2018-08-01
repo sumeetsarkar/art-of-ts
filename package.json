@@ -1,0 +1,21 @@
+{
+  "name": "art-of-ts",
+  "version": "1.0.0",
+  "description": "TS tutorial",
+  "bin": {
+    "art-of-ts": "function-types.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo:types": "tsc types.ts --outDir bin && node bin/types.js",
+    "demo:functions": "tsc functions.ts --outDir bin && node bin/functions.js"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "javascript",
+    "js"
+  ],
+  "author": "Sumeet Sarkar",
+  "license": "ISC"
+}
